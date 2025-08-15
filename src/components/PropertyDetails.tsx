@@ -27,7 +27,8 @@ const PropertyDetails = () => {
             <div>
               <h3 className="font-medium text-gray-900 mb-2">Espacio</h3>
               <p className="text-gray-500 text-sm">
-                500 m² para taller, bodega, oficinas
+                500 m² para taller, bodega, oficinas<br />
+                Planta alta: Primer nivel
               </p>
             </div>
           </div>
@@ -41,7 +42,7 @@ const PropertyDetails = () => {
             <div>
               <h3 className="font-medium text-gray-900 mb-2">Garage</h3>
               <p className="text-gray-500 text-sm">
-                Disponible
+                No disponible
               </p>
             </div>
           </div>
