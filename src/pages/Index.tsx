@@ -15,15 +15,13 @@ const Index = () => {
   ];
 
   const gallist = [
-    'banner/g1.webp',
-    'banner/g2.webp',
-    'banner/g3.webp',
-    'banner/g4.webp',
-    'banner/g5.webp',
-    'banner/g6.webp',
-    'banner/g7.webp',
-    'banner/g8.webp',
-    'banner/g9.webp'
+    '/lovable-uploads/0cc8fc65-015b-45f8-ac1b-99083f6300e3.png',
+    '/lovable-uploads/904454cb-68d7-46ca-9ca5-e1055ee8a325.png',
+    '/lovable-uploads/023319cf-1943-40d0-a6e5-ed30a06c6306.png',
+    '/lovable-uploads/099ddc2e-d2fe-49a0-bbf1-12d8bf842651.png',
+    '/lovable-uploads/3f6fe587-d6e6-4e7d-9bad-d5e1347e7f06.png',
+    '/lovable-uploads/9e0f9f34-8c6a-4590-b566-2c5f2b8c5b3f.png',
+    '/lovable-uploads/de6180e4-7a83-4302-80a8-6c42fc7a85a4.png'
   ];
 
   const location: [number, number] = [-99.14378945245994, 19.405012150729583];
