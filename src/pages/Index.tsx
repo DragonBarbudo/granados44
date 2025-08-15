@@ -26,7 +26,7 @@ const Index = () => {
     'banner/g9.webp'
   ];
 
-  const location: [number, number] = [-99.128806, 19.398056];
+  const location: [number, number] = [-99.14378945245994, 19.405012150729583];
   const phoneNumber = "+525535476828";
 
   const handleWhatsAppClick = () => {
@@ -36,22 +36,22 @@ const Index = () => {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "RealEstateListing",
-    "name": "Local Comercial en Renta - Plutarco Elías Calles",
-    "description": "Local Comercial en Renta con Ubicación Estratégica y Amplias Funcionalidades. Esquina en av. Plutarco Elias Calles y contra-esquina de Metrobús Andrés Molina",
+    "name": "Local Comercial en Renta - Enrique Granados",
+    "description": "Local Comercial en Renta. Para taller, bodega, oficinas. Y garage.",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Plutarco Elías Calles 733",
-      "addressLocality": "Nueva Santa Anita, Iztacalco",
+      "streetAddress": "Enrique Granados 44",
+      "addressLocality": "Algarín, Cuauhtémoc",
       "addressRegion": "CDMX",
-      "postalCode": "08210",
+      "postalCode": "06880",
       "addressCountry": "MX"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": "19.398056",
-      "longitude": "-99.128806"
+      "latitude": "19.405012150729583",
+      "longitude": "-99.14378945245994"
     },
-    "price": "48000",
+    "price": "45000",
     "priceCurrency": "MXN",
     "telephone": phoneNumber,
     "image": images
@@ -63,8 +63,8 @@ const Index = () => {
         <script type="application/ld+json">
           {JSON.stringify(schemaData)}
         </script>
-        <title>Local Comercial en Renta - Plutarco Elías Calles 733</title>
-        <meta name="description" content="Local Comercial en Renta con Ubicación Estratégica y Amplias Funcionalidades en Plutarco Elías Calles" />
+        <title>Local Comercial en Renta - Enrique Granados 44</title>
+        <meta name="description" content="Local Comercial en Renta. Para taller, bodega, oficinas. Y garage." />
       </Helmet>
       <main className="container mx-auto px-6 py-8">
         {/* Two Column Layout */}
@@ -77,13 +77,13 @@ const Index = () => {
             </div>
 
             <div className="bg-white rounded-3xl p-6 shadow-sm">
-              <h1 className="text-2xl font-bold mb-4">¡Local Comercial en Renta con Ubicación Estratégica y Amplias Funcionalidades!</h1>
-              <h2>Esquina en avenida Plutarco Elias Calles y contra-esquina de Metrobús Andrés Molina.</h2>
+              <h1 className="text-2xl font-bold mb-4">¡Local Comercial en Renta!</h1>
+              <h2>Para taller, bodega, oficinas. Y garage.</h2>
               
               <div className="mt-6">
                 <div className="flex items-start gap-3">
                   <MapPin className="mt-1" />
-                  <p>Plutarco Elías Calles 733, Nueva Santa Anita, Iztacalco, CDMX, C.P. 08210</p>
+                  <p>Enrique Granados 44, Algarín, Cuauhtémoc, 06880 Ciudad de México, CDMX</p>
                 </div>
               </div>
             </div>
@@ -115,9 +115,9 @@ const Index = () => {
               
               <div className="space-y-6">
                 <div>
-                  <h2 className="text-2xl font-bold mb-2">$400/m²</h2>
+                  <h2 className="text-2xl font-bold mb-2">$90/m²</h2>
                   <div className="flex gap-2 text-sm text-gray-500">
-                    <span>120m²</span>
+                    <span>500m²</span>
                     <span>•</span>
                     <span>Comercial</span>
                   </div>
@@ -126,7 +126,7 @@ const Index = () => {
                 <div className="space-y-4">
                   <div className="flex justify-between items-center">
                     <span className="text-gray-600">Renta Mensual</span>
-                    <span className="font-medium">$48,000 MXN</span>
+                    <span className="font-medium">$45,000 + IVA</span>
                   </div>
                 </div>
               </div>

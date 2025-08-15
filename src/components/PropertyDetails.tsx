@@ -12,11 +12,10 @@ const PropertyDetails = () => {
               <MapPin className="text-blue-500 w-5 h-5" />
             </div>
             <div>
-              <h3 className="font-medium text-gray-900 mb-2">Ubicación Premium</h3>
+              <h3 className="font-medium text-gray-900 mb-2">Ubicación</h3>
               <p className="text-gray-500 text-sm">
-                Esquina de dos importantes ejes viales (4 Sur y 1 Oriente)<br />
-                Frente a la estación de Metrobús Andrés Molina<br />
-                Frente al mercado Santa Anita
+                Enrique Granados 44, Algarín, Cuauhtémoc<br />
+                06880 Ciudad de México, CDMX
               </p>
             </div>
           </div>
@@ -28,7 +27,7 @@ const PropertyDetails = () => {
             <div>
               <h3 className="font-medium text-gray-900 mb-2">Espacio</h3>
               <p className="text-gray-500 text-sm">
-                120 m² distribuidos en planta baja y mezzanine
+                500 m² para taller, bodega, oficinas
               </p>
             </div>
           </div>
@@ -40,7 +39,7 @@ const PropertyDetails = () => {
               <Car className="text-orange-500 w-5 h-5" />
             </div>
             <div>
-              <h3 className="font-medium text-gray-900 mb-2">Estacionamiento</h3>
+              <h3 className="font-medium text-gray-900 mb-2">Garage</h3>
               <p className="text-gray-500 text-sm">
                 Disponible
               </p>
@@ -52,9 +51,9 @@ const PropertyDetails = () => {
               <Coffee className="text-green-500 w-5 h-5" />
             </div>
             <div>
-              <h3 className="font-medium text-gray-900 mb-2">Amenidades</h3>
+              <h3 className="font-medium text-gray-900 mb-2">Características</h3>
               <p className="text-gray-500 text-sm">
-                2 baños, oficina, bodega, cocineta
+                Ideal para taller, bodega, oficinas
               </p>
             </div>
           </div>
