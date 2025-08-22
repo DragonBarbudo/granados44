@@ -8,10 +8,10 @@ import { Helmet } from 'react-helmet';
 
 const Index = () => {
   const images = [
-    'banner/p1.webp',
-    'banner/p2.webp',
-    'banner/p3.webp',
-    'banner/p4.webp'
+    'lovable-uploads/fc7ae1e6-702b-4722-89ca-73407c487dc2.png',
+    'lovable-uploads/e3b7dcde-f239-450e-83ae-16249d8aaaa2.png',
+    'lovable-uploads/fb8b70b8-1763-4b95-935c-4c810f28de16.png',
+    'lovable-uploads/3b240384-84f7-41a9-8bff-b0722c1ec4aa.png'
   ];
 
   const gallist = [
