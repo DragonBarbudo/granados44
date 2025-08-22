@@ -1,8 +1,6 @@
 import { Building2, MapPin, DoorOpen, Car, Coffee } from 'lucide-react';
-
 const PropertyDetails = () => {
-  return (
-    <div className="bg-white rounded-3xl shadow-sm p-8">
+  return <div className="bg-white rounded-3xl shadow-sm p-8">
       <h2 className="text-2xl font-bold mb-8">Detalles de la Propiedad</h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -41,9 +39,7 @@ const PropertyDetails = () => {
             </div>
             <div>
               <h3 className="font-medium text-gray-900 mb-2">Garage</h3>
-              <p className="text-gray-500 text-sm">
-                No disponible
-              </p>
+              <p className="text-gray-500 text-sm">Disponible</p>
             </div>
           </div>
 
@@ -60,8 +56,6 @@ const PropertyDetails = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default PropertyDetails;
