@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://plutarco733.lovable.dev/sitemap.xml
+Sitemap: https://granados44.lovable.dev/sitemap.xml
